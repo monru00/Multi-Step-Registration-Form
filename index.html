@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi-step Register form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="parent">
+    <!-- ************ step 1 start here **************** -->
+    <div class="step-1">  
+      <div class="background">
+        <div class="container">
+          <h1 class="register">Register</h1>
+          <form action="">
+            <!-- Name Input -->
+            <label for="name" class="name-label">Name</label>
+            <input
+              type="text"
+              class="name"
+              placeholder="Enter your name"
+              required
+            />
+            <!-- Email Input -->
+            <label for="email" class="email-label">Email</label>
+            <input
+              type="email"
+              class="email"
+              placeholder="Example@gmail.com"
+              required
+            />
+            <br />
+            <button class="button-1">Continue</button>
+          </form>
+        </div>
+        <div class="stepper">
+          <p class="stepper-txt">Step 1 of 3</p>
+          <input type="radio" name="page" id="page1" checked />
+          <input type="radio" name="page" id="page2" />
+          <input type="radio" name="page" id="page3" />
+        </div>
+      </div>
+    </div>
+    <!-- ************ step 1 end here **************** -->
+    <!-- ************ step 2 start here **************** -->
+    <div class="step-2">
+      <div class="background">
+        <div class="container">
+          <h1 class="register">Which topics you are interested in?</h1>
+          <form action="">
+            <input
+              type="button"
+              value="Software Development"
+              class="name btn1-sec2"
+            />
+            <input
+              type="button"
+              value="User Experience"
+              class="email btn2-sec2"
+              placeholder="User Experience"
+            />
+            <input
+              type="button"
+              value="Graphic Design"
+              class="email btn3-sec2"
+            />
+            <br />
+            <button class="button-1">Continue</button>
+          </form>
+        </div>
+        <div class="stepper">
+          <p class="stepper-txt">Step 1 of 3</p>
+          <input type="radio" name="page" id="page1" checked />
+          <input type="radio" name="page" id="page2" />
+          <input type="radio" name="page" id="page3" />
+        </div>
+      </div>
+    </div>
+    <!-- ************ step 2 end here **************** -->
+    <!-- ************ step 3 start here **************** -->
+    <div class="step-3">
+      <div class="background">
+        <div class="container con-2">
+          <h1 class="register">Summary</h1>
+          <div class="d1-s3">
+            <!-- <label for="name" class="leb1-sec3">Name: </label> -->
+            <p class="leb1-sec3">Name:</p><h2 class="h1-s3"></h2>
+          </div>
+          <div class="d2-s3">
+          <label for="email" class="leb2-sec3">Email: </label><h2 class="h2-s3"></h2>
+        </div>
+        <div class="d3-s3">
+          <label for="topics" class="leb3-sec3">Topics: </label>
+          <h2 class="h3-s3"></h2>
+        </div>
+            <button class="button-1">Continue</button>
+          </form>
+        </div>
+        <div class="stepper">
+          <p class="stepper-txt">Step 1 of 3</p>
+          <input type="radio" name="page" id="page1" checked />
+          <input type="radio" name="page" id="page2" />
+          <input type="radio" name="page" id="page3" />
+        </div>
+      </div>
+    </div>
+    <!-- ************ step 3 end here **************** -->
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>

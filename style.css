@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #121826;
+    color: rgb(229, 231, 235);
+    font-family: 'Inter', sans-serif;
+}
+/* ****************section 1 start here **************** */
+
+.step-1{
+    display: none;
+}
+.background{
+    background: url("./images/blur-radial.png" ) no-repeat ;
+    background-position: 200px 0px; 
+}
+.container{
+    width: 500px;
+    height: 390px;
+    background-color: #212936;
+    margin: 140px auto 20px;
+    border-radius: 15px;
+    padding: 40px 0 0 45px;
+    box-shadow: 5px 0px 10px rgba(170, 106, 207, 0.6); 
+}
+.register{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.name{
+    margin-bottom: 27px;
+    width: 420px;
+    height: 47px;
+    background: transparent;
+    color: rgb(229, 231, 235);
+    border: none;
+    outline: solid 0.1px #4D5562;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+.email{
+    margin-bottom: 35px;
+    width: 420px;
+    height: 47px;
+    background: transparent;
+    color: rgb(229, 231, 235);
+    border: none;
+    outline: solid 0.1px #4D5562;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+.name-label, .email-label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.button-1{
+    color: rgb(229, 231, 235);
+    width: 127px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #845eee 0%, #652cd1 100%);
+    margin: 0 0 30px 143px;
+    cursor: pointer;
+}
+.button-1:hover{
+    background: #845EEE;
+}
+
+ input::placeholder{
+    color: rgb(199, 200, 201);
+ }
+ input:focus::placeholder {
+    color: transparent;
+  }
+  input:focus {
+    outline: 2px solid #845EEE;
+  }
+  .stepper{
+    margin: 0 0 297px 600px;
+    display: flex;
+    gap: 15px;
+  }
+  .stepper-txt{
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: 100;
+    display: block;
+  }
+  .stepper input:checked {
+    background-color: #845EEE;
+    border-color: #845EEE;
+    box-shadow: 0 0 10px 5px rgba(161, 90, 228, 0.6);  
+  }
+  /* *****************section 1 end here ***************** */
+  /* *****************section 2 start here ***************** */
+  .step-2{
+    display: none;
+  }
+  .btn1-sec2,.btn2-sec2,.btn3-sec2{
+    text-align: left;
+    padding-left: 20px;
+    background-color: #394050;
+  }
+  .btn1-sec2{
+    margin-bottom: 15px;
+  }
+  .btn2-sec2{
+    margin-bottom: 15px; 
+  }
+  /* *****************section 2 end here ***************** */
+  /* ****************section 3 start here **************** */
+  .step-3{
+    display: none;
+  }
+  .leb1-sec3{
+    font-weight: 400;
+    color: #a2a4a7;
+    display: block;
+  }
+  .leb2-sec3{
+    font-weight: 400;
+    color: #a2a4a7;
+    display: block;
+  }
+  .leb3-sec3{
+    font-weight: 400;
+    color: #a2a4a7;
+  }
+  .d1-s3{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .d2-s3{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .d3-s3{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .h3-s3{
+    height: 85px;
+  }
+.con-2{
+    height: 430px; 
+}
+ /* *****************section 2 end here ***************** */
+ .stepper {
+    margin: 0 0 297px 600px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.stepper-txt {
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: 100;
+}
+
+.stepper input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #4D5562;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.stepper input[type="radio"]:checked,
+.stepper input[type="radio"].active {
+    background-color: #845EEE;
+    border-color: #845EEE;
+    box-shadow: 0 0 10px 5px rgba(161, 90, 228, 0.6);
+}
