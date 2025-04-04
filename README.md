@@ -1,6 +1,6 @@
 
 
-<h1 align="center">{Multi-Step-Registration-Form} |</h1>
+<h1 align="center">Multi-Step-Registration-Form</h1>
 
 
 <div align="center">
@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/monru00/Multi-Step-Registration-Form/blob/main/images/blur-radial.png)
+![screenshot](https://github.com/monru00/Multi-Step-Registration-Form/blob/main/images/tum.png)
 
 <!--
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
