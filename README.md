@@ -1,10 +1,7 @@
-<!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
 
-<div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/multi-step-register-form" target="_blank">Multi-step Register Form</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
-</div>
+<h1 align="center">{Multi-Step-Registration-Form} |</h1>
+
 
 <div align="center">
   <h3>
@@ -71,5 +68,5 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ## Author
 
-- Website [your-website.com](https://mohammednesru.vercel.app/})
-- GitHub [@your-username](https://github.com/monru00})
+- Website [visite-my  site](https://mohammednesru.vercel.app/})
+- GitHub [visite my github](https://github.com/monru00})
